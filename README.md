@@ -1,7 +1,7 @@
 # cs1b_hw02_template
 ## Using functions and the `make` utility
 
-This is basically the same program as assignment hw01 where the calculation is coded on a separate file (hw01f.cpp).  Compilation is managed by the utility `make` as discussed in class.  Make sure that the configuration of the `Makefile` minimizes recompilation upon individual changes, also as discussed in class.
+This is basically the same program as assignment **hw01** except the calculation is coded on a separate file `hw01f.cpp` and compilation is managed by the utility `make`, as discussed in class.  Make sure that the configuration of the `Makefile` minimizes recompilation upon individual changes, also as discussed in class.  During development, use `git` with at least two commits and `git push` the code to your github.com repository.
 
 Write a program that takes a variable amount of scores (less than 50) and outputs the average of the scores.  Use a array of type `double` to store each score. Include a header file with your personal information, pre-processor directives, etc. Notice that the function prototype (`calculateAverate()`) is given to you in the header file `hw02.h`.  Do not change the function signature or return type as the automated unit test will fail if so.
 
